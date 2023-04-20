@@ -1,0 +1,37 @@
+.split {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* or simply use height:100% with body and html */
+  display: flex;
+  flex-direction: row;
+}
+.lefter {
+  color: white;
+  width: 35%;
+  background: black;
+  justify-content: center;
+  text-align: center;
+}
+
+.board {
+  margin-top: 50%;
+}
+.righter {
+  flex: 1;
+  background: lightgray;
+  justify-content: left;
+  text-align: left;
+}
+.register {
+  border-radius: 40px;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin-top: 12.5%;
+}
+input {
+  border: none;
+  background-color: lightgray;
+  padding: 8px;
+  border-radius: 10px;
+}

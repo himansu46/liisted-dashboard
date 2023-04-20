@@ -1,0 +1,113 @@
+.splitScreen {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* or simply use height:100% with body and html */
+  display: flex;
+  flex-direction: row;
+  background: lightgray;
+}
+.left {
+  color: white;
+  width: 20%;
+  background-color: black;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.right {
+  flex: 1;
+}
+
+li {
+  list-style: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+.rightheader {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div1 {
+  border-radius: 7px;
+  background-color: lightgreen;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+}
+.div2 {
+  border-radius: 7px;
+  background-color: lightcoral;
+  width: 25%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+
+.div3 {
+  border-radius: 7px;
+  background-color: lightpink;
+  width: 25%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+
+.div4 {
+  border-radius: 7px;
+  background-color: lightskyblue;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  margin-left: 70px;
+}
+
+.boxinside {
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.graphpic {
+  width: 97%;
+  height: 40%;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+
+select {
+  border: none;
+}
+
+.piechart {
+  width: 480px;
+  height: 20%;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
